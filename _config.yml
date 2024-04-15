@@ -10,7 +10,7 @@ tagline: Brian's blog
 
 description: Brian's blog
 
-url: "https://GMbrianlaw.github.io"
+url: "https://gmbrianlaw.github.io"
 
 github:
   username: GMbrianlaw
@@ -104,7 +104,7 @@ defaults:
       comments: false
   - scope:
       path: ""
-      type: tabs # see `site.collections`
+      type: tabs
     values:
       layout: page
       permalink: /:title/
