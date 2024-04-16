@@ -356,7 +356,7 @@ $ qstress check main.cpp check.cpp gen.cpp
 ```
 
 You should probably get output indicating that you found a failing test case.
-If not, you probably got very unlucky and none of the generated tests caused a WA.
+If not, you probably got very unlucky and none of the generated tests caused an incorrect answer.
 In that case, rerun the previous command and consider increasing `tests`.
 
 The failing test cases are saved as `<folder>/input_<n>.txt`{: .filepath}, where `<folder>` is
